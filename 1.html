@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivago 旅遊訂房省錢攻略</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background:#f4f7fb; color:#333; }
+    header { background:#0077cc; color:white; padding:50px 20px; text-align:center; }
+    .container { max-width:1100px; margin:auto; padding:40px 20px; }
+    .card { background:white; border-radius:12px; padding:30px; margin-bottom:30px; box-shadow:0 4px 10px rgba(0,0,0,.1); }
+    h1,h2,h3 { margin-top:0; }
+    .btn { display:inline-block; background:#ff6600; color:white; padding:15px 30px; text-decoration:none; border-radius:8px; font-weight:bold; }
+    input, select { width:100%; padding:12px; margin:10px 0; border:1px solid #ccc; border-radius:8px; }
+    .pricing { display:flex; gap:20px; flex-wrap:wrap; }
+    .plan { flex:1; min-width:280px; border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center; }
+    footer { text-align:center; padding:30px; background:#222; color:white; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>免費下載《旅遊訂房省錢攻略》</h1>
+  <p>學會用 trivago 找到最低價住宿，平均省下 30%！</p>
+  <a href="#lead" class="btn">立即免費領取</a>
+</header>
+
+<div class="container">
+
+  <section id="lead" class="card">
+    <h2>名單蒐集頁</h2>
+    <p>填寫資料，免費獲得電子書。</p>
+    <form>
+      <input type="text" placeholder="姓名" required>
+      <input type="email" placeholder="Email" required>
+      <select>
+        <option>常去旅遊地區</option>
+        <option>日本</option>
+        <option>韓國</option>
+        <option>泰國</option>
+        <option>歐洲</option>
+      </select>
+      <button class="btn" type="submit">立即下載</button>
+    </form>
+  </section>
+
+  <section class="card">
+    <h2>銷售頁：旅遊方案推薦</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>自由行方案</h3>
+        <h2>NT$499</h2>
+        <p>亞洲熱門住宿攻略</p>
+        <a href="#" class="btn">立即購買</a>
+      </div>
+      <div class="plan">
+        <h3>家庭旅遊方案</h3>
+        <h2>NT$999</h2>
+        <p>親子與家庭住宿推薦</p>
+        <a href="#" class="btn">立即購買</a>
+      </div>
+      <div class="plan">
+        <h3>VIP會員方案</h3>
+        <h2>NT$199/月</h2>
+        <p>專屬優惠與客服支援</p>
+        <a href="#" class="btn">立即加入</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Trivago Marketing Demo | GitHub Pages Ready</p>
+</footer>
+
+</body>
+</html>
